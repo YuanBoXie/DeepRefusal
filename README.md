@@ -1,4 +1,6 @@
 # DeepRefusal
+- [[Paper](https://arxiv.org/abs/2509.15202)]
+
 *This work is built on [Refusal Direction](https://github.com/andyrdt/refusal_direction) and [CircuitBreaker](https://github.com/GraySwanAI/circuit-breakers/tree/main). Please refer to the corresponding repository for the code to obtain the refusal direction and output evaluation.*
 
 <img align="center" src="assets/fig1.jpg" width="800">
@@ -8,12 +10,13 @@ We present DeepRefusal, a representation-engineering approach that rebuilds safe
 
 # Citation
 ```
-@inproceedings{xie2025beyond,
-  title     = {Beyond Surface Alignment: Rebuilding {LLM}s Safety Mechanism via Probabilistically Ablating Refusal Direction},
-  author    = {Yuanbo Xie and Yingjie Zhang and Tianyun Liu and Duohe Ma and Tingwen Liu},
-  booktitle = {Findings of the Association for Computational Linguistics: {EMNLP} 2025},
-  year      = {2025},
-  publisher = {Association for Computational Linguistics},
-  note      = {to appear}
+@misc{xie2025surfacealignmentrebuildingllms,
+      title={Beyond Surface Alignment: Rebuilding LLMs Safety Mechanism via Probabilistically Ablating Refusal Direction}, 
+      author={Yuanbo Xie and Yingjie Zhang and Tianyun Liu and Duohe Ma and Tingwen Liu},
+      year={2025},
+      eprint={2509.15202},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2509.15202}, 
 }
 ```
